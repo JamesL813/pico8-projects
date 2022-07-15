@@ -6,6 +6,7 @@ function _init()
 	cx=0
 	cy=0
 	stars={}
+	pi=3.141593
 end
 
 function _update()
@@ -28,13 +29,16 @@ function add_star()
 
 	w=30000
 	h=30000
-
-	local x=rnd(w)-(w/2)+cx
-	local y=rnd(h)-(h/2)+cy
+	
+	local r=rnd(w/2)
+	local th=rnd(pi*2)
+	
+	local x=r*cos(th)+cx
+	local y=r*sin(th)+cy
 	local z=1
 	local dx=rnd(50)-25
 	local dy=rnd(50)-25
-	local dz=rnd(100)+100
+	local dz=rnd(1000)+100
 	local c=rnd(3)+5
 	
 	add(stars,{
@@ -79,7 +83,7 @@ end
 function proj(x1,y1,z1)
 	local x0=cx
 	local y0=cy
-	local z0=16
+	local z0=8
 	
 	local t=-z0/(z1-z0)
 	

@@ -12,7 +12,7 @@
 [000000]     07 fullscreen_method 1 // 0 maximized window (linux)  1 borderless desktop-sized window  2 hardware fullscreen (warning: erratic behaviour under some drivers)
 [000000]     08 foreground_sleep_ms 2 // number of milliseconds to sleep each frame. Try 10 to conserve battery power
 [000000]     09 background_sleep_ms 10 // number of milliseconds to sleep each frame when running in the background
-[000000]     10 sessions 5 // number of times program has been run
+[000000]     10 sessions 7 // number of times program has been run
 [000000]     11 rmb_key 0 // 0 for none  226 for LALT
 [000000]     12 desktop_path 
 [000000]     13 read_controllers_in_background 0
@@ -46,130 +46,75 @@
 [000000]     41 gfx_grid_lines 0
 [000000]   
 [000000]   codo_system_init
-[000510]   Compiled against SDL version: 2.0.8
-[000510]   Linked against SDL version:   2.0.8
-[000510]   Current video driver: x11
-[000510]   codo_reset_timer
-[000510]   codo_gui_init
-[000510]   codo_keys_init
-[000510]   codo_text_init
-[000510]   codo_video_init
-[000510]   codo_mouse_init
-[000510]   codo_joystick_init
-[000510]   Reading controller mappings: pico8/sdl_controllers.txt
-[000511]   searching for joysticks
-[000511]     found 0 joysticks
-[000511]   ok
-[000511] ok
-[000523] codo_load_pod: /opt/pico-8/pico8.dat ok 
-[000525] codo_set_screen 128 128 8 100
-[000525]  window size: 512 512
-[000976]   setting filter to nearest (screen_mode 0  back page width: 128)
+[000932]   Compiled against SDL version: 2.0.8
+[000932]   Linked against SDL version:   2.0.8
+[000932]   Current video driver: x11
+[000932]   codo_reset_timer
+[000932]   codo_gui_init
+[000932]   codo_keys_init
+[000932]   codo_text_init
+[000932]   codo_video_init
+[000932]   codo_mouse_init
+[000932]   codo_joystick_init
+[000933]   Reading controller mappings: pico8/sdl_controllers.txt
+[000933]   searching for joysticks
+[000933]     found 2 joysticks
+[000933]     connecting joystick 0
+[000933]     Controller 0: Nintendo Switch Pro Controller (joycond)
+[000933]      Number of Axes: 4
+[000933]      Number of Buttons: 14
+[000933]      Number of Balls: 0
+[000933]      Mapping: 050000007e0500000920000001800000,Nintendo Switch Pro Controller (joycond),a:b0,b:b1,back:b9,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b11,leftshoulder:b5,leftstick:b12,lefttrigger:b7,leftx:a0,lefty:a1,rightshoulder:b6,rightstick:b13,righttrigger:b8,rightx:a2,righty:a3,start:b10,x:b3,y:b2,platform:Linux
+[000933]     connecting joystick 1
+[000933]     Controller 1: Steam Virtual Gamepad
+[000933]      Number of Axes: 6
+[000933]      Number of Buttons: 11
+[000933]      Number of Balls: 0
+[000933]      Mapping: 03000000de280000ff11000001000000,Steam Virtual Gamepad,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux
+[000933]   ok
+[000933] ok
+[000945] codo_load_pod: /opt/pico-8/pico8.dat ok 
+[000946] codo_set_screen 128 128 8 100
+[000946]  window size: 512 512
+[001404]   setting filter to nearest (screen_mode 0  back page width: 128)
   renderer opengl:
    flags: 0x0000000E ( |  | )
    texture formats (5): ARGB8888, YV12, IYUV, 0x3231564e, 0x3132564e
    max texture size: 32768x32768
-[001007]  desktop size: 2560 1440
-[001007] ok
-[001026] codo_sound_init mix_buffer_size: 1024
-[001026] codo_sound_init
-[001026] SDL_INIT_AUDIO ok
-[001066] SDL_OpenAudio ok
-[001066]  freq:22050
+[001405]  desktop size: 2560 1440
+[001405] ok
+[001408] codo_sound_init mix_buffer_size: 1024
+[001408] codo_sound_init
+[001408] SDL_INIT_AUDIO ok
+[001418] SDL_OpenAudio ok
+[001418]  freq:22050
  channels:1
-[001066] Built-in audio drivers: 0 pulseaudio 1 alsa 2 dsp 3 disk 4 dummy
-[001066] Current audio driver: pulseaudio
-[001066] splore_init
-[001066] could not load favourites file: pico8/favourites.txt
-[792280] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[862525] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[886966] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[901865] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[914373] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[965891] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[975624] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[981354] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[998342] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[1060163] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[1070946] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[1108159] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[1119893] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[1156554] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[1163002] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[1176360] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[1196642] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[1208308] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[1248283] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[1268914] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[1300551] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[1314508] saving gif to: /home/james/Desktop/untitled_0.gif
-[1360326] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[1369960] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4306294] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4456724] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4475265] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4494768] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4541217] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4552314] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4555309] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4568602] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4583512] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4606864] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4613546] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4653838] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4662276] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4673734] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4687583] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4700334] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4708837] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4715232] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4731534] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4735703] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4813782] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4817318] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4821536] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4834418] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4869280] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4894811] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4912046] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4929875] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[4960802] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[5034189] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[5054343] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[5107037] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[5125555] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[5200155] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[5243081] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[5247324] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[5282405] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[5289886] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[5299516] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[5304113] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[5307558] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[5310335] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[5322152] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[5341389] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[5358285] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[5405966] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[5445129] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[5455531] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[5465032] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[5467393] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[5508462] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[5564853] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[5586879] run_cart current_filename: pico8/carts/untitled.p8 running_filename: untitled.p8 running_cart_lid: 
-[5634271] run_cart current_filename: pico8/carts/3dproj.p8 running_filename: 3dproj.p8 running_cart_lid: 
-[5672353] run_cart current_filename: pico8/carts/3dproj.p8 running_filename: 3dproj.p8 running_cart_lid: 
-[5692989] run_cart current_filename: pico8/carts/3dproj.p8 running_filename: 3dproj.p8 running_cart_lid: 
-[5706603] run_cart current_filename: pico8/carts/3dproj.p8 running_filename: 3dproj.p8 running_cart_lid: 
-[5721285] run_cart current_filename: pico8/carts/3dproj.p8 running_filename: 3dproj.p8 running_cart_lid: 
-[5730230] run_cart current_filename: pico8/carts/3dproj.p8 running_filename: 3dproj.p8 running_cart_lid: 
-[5779178] run_cart current_filename: pico8/carts/3dproj.p8 running_filename: 3dproj.p8 running_cart_lid: 
-[5794355] run_cart current_filename: pico8/carts/3dproj.p8 running_filename: 3dproj.p8 running_cart_lid: 
-[5813122] run_cart current_filename: pico8/carts/3dproj.p8 running_filename: 3dproj.p8 running_cart_lid: 
-[5820685] run_cart current_filename: pico8/carts/3dproj.p8 running_filename: 3dproj.p8 running_cart_lid: 
-[5881638] run_cart current_filename: pico8/carts/3dproj.p8 running_filename: 3dproj.p8 running_cart_lid: 
-[5908090] run_cart current_filename: pico8/carts/3dproj.p8 running_filename: 3dproj.p8 running_cart_lid: 
-[5939028] run_cart current_filename: pico8/carts/3dproj.p8 running_filename: 3dproj.p8 running_cart_lid: 
-[5991822] run_cart current_filename: pico8/carts/3dproj.p8 running_filename: 3dproj.p8 running_cart_lid: 
-[5999300] launch: [xdg-open "pico8/carts/"&] result: 0
+[001418] Built-in audio drivers: 0 pulseaudio 1 alsa 2 dsp 3 disk 4 dummy
+[001418] Current audio driver: pulseaudio
+[001418] splore_init
+[001418] could not load favourites file: pico8/favourites.txt
+[001485] connecting joystick 1
+[001485] Controller 1: Steam Virtual Gamepad
+[001485]  Number of Axes: 6
+[001485]  Number of Buttons: 11
+[001485]  Number of Balls: 0
+[001485]  Mapping: 03000000de280000ff11000001000000,Steam Virtual Gamepad,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux
+[073599] run_cart current_filename: pico8/carts/untitled_2.p8 running_filename: untitled_2.p8 running_cart_lid: 
+[076013] run_cart current_filename: pico8/carts/untitled_2.p8 running_filename: untitled_2.p8 running_cart_lid: 
+[079271] run_cart current_filename: pico8/carts/untitled_2.p8 running_filename: untitled_2.p8 running_cart_lid: 
+[085508] run_cart current_filename: pico8/carts/untitled_2.p8 running_filename: untitled_2.p8 running_cart_lid: 
+[104815] run_cart current_filename: pico8/carts/anchor/anchor.p8 running_filename: anchor/anchor.p8 running_cart_lid: 
+[141410] run_cart current_filename: pico8/carts/anchor/anchor.p8 running_filename: anchor/anchor.p8 running_cart_lid: 
+[234430] run_cart current_filename: pico8/carts/breakout.p8 running_filename: breakout.p8 running_cart_lid: 
+[275094] run_cart current_filename: pico8/carts/breakout.p8 running_filename: breakout.p8 running_cart_lid: 
+[277408] window closed (14)
+[277408] codo_exit
+[277408]   cmusic_stop
+[277408]   codo_main_exit
+[277409]   codo_config_save
+[277409]   codo_sound_exit
+[277409]   codo_video_exit
+[277413]   codo_joystick_exit
+[277471]   codo_system_exit
+[277472]   codo_items_created: 1295
+[277472] ok
