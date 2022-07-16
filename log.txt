@@ -12,273 +12,96 @@
 [000000]     07 fullscreen_method 1 // 0 maximized window (linux)  1 borderless desktop-sized window  2 hardware fullscreen (warning: erratic behaviour under some drivers)
 [000000]     08 foreground_sleep_ms 2 // number of milliseconds to sleep each frame. Try 10 to conserve battery power
 [000000]     09 background_sleep_ms 10 // number of milliseconds to sleep each frame when running in the background
-<<<<<<< HEAD
-[000000]     10 sessions 11 // number of times program has been run
-=======
-<<<<<<< HEAD
-[000000]     10 sessions 8 // number of times program has been run
-[000000]     11 rmb_key 0 // 0 for none  226 for LALT
-[000000]     12 desktop_path 
-[000001]     13 read_controllers_in_background 0
-[000001]     14 sound_volume 256 // 0..256
-[000001]     15 music_volume 256 // 0..256
-[000001]     16 mix_buffer_size 1024
-[000001]     17 version 0.2.4C
-[000001]     18 volume 256
-[000001]     19 root_path pico8/carts/
-[000001]     20 cdata_path pico8/cdata/
-[000001]     21 joystick_index 0
-[000001]     22 button_keys 0 0 0 0 0 0 0 0 0 0 0 0 0 
-[000001]     23 live_notes 0
-[000001]     24 cursor_snap 0
-[000001]     25 gui_theme 0
-[000001]     26 screenshot_scale 3
-[000001]     27 gif_scale 3
-[000001]     28 gif_len 16
-[000001]     29 gif_reset_mode 0
-[000001]     30 host_framerate_control 1
-[000002]     31 splore_filter 0
-[000002]     32 tab_width 1
-[000002]     33 draw_tabs 0
-[000002]     34 record_activity_log 1
-[000002]     35 allow_function_keys 1
-[000002]     36 check_for_cart_updates 1
-[000002]     37 auto_hide_mouse_cursor 5
-[000002]     38 aggressive_backups 0
-[000002]     39 periodic_backups 20
-[000002]     40 transform_screen 0
-[000002]     41 gfx_grid_lines 0
-[000002]   
-[000003]   codo_system_init
-[000835]   Compiled against SDL version: 2.0.8
-[000835]   Linked against SDL version:   2.0.8
-[000835]   Current video driver: x11
-[000835]   codo_reset_timer
-[000835]   codo_gui_init
-[000835]   codo_keys_init
-[000835]   codo_text_init
-[000837]   codo_video_init
-[000837]   codo_mouse_init
-[000837]   codo_joystick_init
-[000844]   Reading controller mappings: pico8/sdl_controllers.txt
-[000844]   searching for joysticks
-[000844]     found 0 joysticks
-[000844]   ok
-[000844] ok
-[000879] codo_load_pod: /opt/pico-8/pico8.dat ok 
-[000900] codo_set_screen 128 128 8 100
-[000900]  window size: 512 512
-[001139]   setting filter to nearest (screen_mode 0  back page width: 128)
-=======
-[000000]     10 sessions 7 // number of times program has been run
->>>>>>> 16f50e1ffea338ac455c5104fe993c1cf1da3b30
-[000000]     11 rmb_key 0 // 0 for none  226 for LALT
-[000000]     12 desktop_path $HOME/Pictures/pico8/
-[000000]     13 read_controllers_in_background 0
-[000000]     14 sound_volume 256 // 0..256
-[000000]     15 music_volume 256 // 0..256
-[000000]     16 mix_buffer_size 1024
-[000000]     17 version 0.2.4C
-[000000]     18 volume 256
-[000000]     19 root_path pico8/carts/
-[000000]     20 cdata_path pico8/cdata/
-[000000]     21 joystick_index 0
-[000000]     22 button_keys 0 0 0 0 0 0 0 0 0 0 0 0 0 
-[000000]     23 live_notes 0
-[000000]     24 cursor_snap 0
-[000000]     25 gui_theme 0
-[000000]     26 screenshot_scale 3
-[000000]     27 gif_scale 3
-[000000]     28 gif_len 16
-[000000]     29 gif_reset_mode 0
-[000000]     30 host_framerate_control 1
-[000000]     31 splore_filter 0
-[000000]     32 tab_width 1
-[000000]     33 draw_tabs 0
-[000000]     34 record_activity_log 1
-[000000]     35 allow_function_keys 1
-[000000]     36 check_for_cart_updates 1
-[000000]     37 auto_hide_mouse_cursor 5
-[000000]     38 aggressive_backups 0
-[000000]     39 periodic_backups 20
-[000000]     40 transform_screen 0
-[000000]     41 gfx_grid_lines 0
+[000000]     10 <<<<<<< HEAD
+[000000]     11 sessions 12 // number of times program has been run
+[000000]     12 =======
+[000000]     13 <<<<<<< HEAD
+[000000]     14 sessions 9 // number of times program has been run
+[000000]     15 =======
+[000000]     16 sessions 8 // number of times program has been run
+[000000]     17 >>>>>>> refs/remotes/origin/main
+[000000]     18 >>>>>>> 16f50e1ffea338ac455c5104fe993c1cf1da3b30
+[000000]     19 rmb_key 0 // 0 for none  226 for LALT
+[000000]     20 desktop_path $HOME/Pictures/pico8/
+[000000]     21 read_controllers_in_background 0
+[000000]     22 sound_volume 256 // 0..256
+[000000]     23 music_volume 256 // 0..256
+[000000]     24 mix_buffer_size 1024
+[000000]     25 version 0.2.4C
+[000000]     26 volume 256
+[000000]     27 root_path pico8/carts/
+[000000]     28 cdata_path pico8/cdata/
+[000000]     29 joystick_index 0
+[000000]     30 button_keys 0 0 0 0 0 0 0 0 0 0 0 0 0 
+[000000]     31 live_notes 0
+[000000]     32 cursor_snap 0
+[000000]     33 gui_theme 0
+[000000]     34 screenshot_scale 3
+[000000]     35 gif_scale 3
+[000000]     36 gif_len 16
+[000000]     37 gif_reset_mode 0
+[000000]     38 host_framerate_control 1
+[000000]     39 splore_filter 0
+[000000]     40 tab_width 1
+[000000]     41 draw_tabs 0
+[000000]     42 record_activity_log 1
+[000000]     43 allow_function_keys 1
+[000000]     44 check_for_cart_updates 1
+[000000]     45 auto_hide_mouse_cursor 5
+[000000]     46 aggressive_backups 0
+[000000]     47 periodic_backups 20
+[000000]     48 transform_screen 0
+[000000]     49 gfx_grid_lines 0
 [000000]   
 [000000]   codo_system_init
-<<<<<<< HEAD
-[000620]   Compiled against SDL version: 2.0.8
-[000620]   Linked against SDL version:   2.0.8
-[000620]   Current video driver: x11
-[000620]   codo_reset_timer
-[000620]   codo_gui_init
-[000620]   codo_keys_init
-[000620]   codo_text_init
-[000620]   codo_video_init
-[000620]   codo_mouse_init
-[000620]   codo_joystick_init
-[000621]   Reading controller mappings: pico8/sdl_controllers.txt
-[000622]   searching for joysticks
-[000622]     found 1 joysticks
-[000622]     connecting joystick 0
-[000622]     Controller 0: Steam Virtual Gamepad
-[000622]      Number of Axes: 6
-[000622]      Number of Buttons: 11
-[000622]      Number of Balls: 0
-[000622]      Mapping: 03000000de280000ff11000001000000,Steam Virtual Gamepad,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux
-[000622]   ok
-[000622] ok
-[000629] codo_load_pod: /opt/pico-8/pico8.dat ok 
-[000631] codo_set_screen 128 128 8 100
-[000631]  window size: 512 512
-[000631] setting fullscreen window size to 2560 1440
-[001243]   setting filter to nearest (screen_mode 1  back page width: 128)
-=======
-[000932]   Compiled against SDL version: 2.0.8
-[000932]   Linked against SDL version:   2.0.8
-[000932]   Current video driver: x11
-[000932]   codo_reset_timer
-[000932]   codo_gui_init
-[000932]   codo_keys_init
-[000932]   codo_text_init
-[000932]   codo_video_init
-[000932]   codo_mouse_init
-[000932]   codo_joystick_init
-[000933]   Reading controller mappings: pico8/sdl_controllers.txt
-[000933]   searching for joysticks
-[000933]     found 2 joysticks
-[000933]     connecting joystick 0
-[000933]     Controller 0: Nintendo Switch Pro Controller (joycond)
-[000933]      Number of Axes: 4
-[000933]      Number of Buttons: 14
-[000933]      Number of Balls: 0
-[000933]      Mapping: 050000007e0500000920000001800000,Nintendo Switch Pro Controller (joycond),a:b0,b:b1,back:b9,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b11,leftshoulder:b5,leftstick:b12,lefttrigger:b7,leftx:a0,lefty:a1,rightshoulder:b6,rightstick:b13,righttrigger:b8,rightx:a2,righty:a3,start:b10,x:b3,y:b2,platform:Linux
-[000933]     connecting joystick 1
-[000933]     Controller 1: Steam Virtual Gamepad
-[000933]      Number of Axes: 6
-[000933]      Number of Buttons: 11
-[000933]      Number of Balls: 0
-[000933]      Mapping: 03000000de280000ff11000001000000,Steam Virtual Gamepad,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux
-[000933]   ok
-[000933] ok
-[000945] codo_load_pod: /opt/pico-8/pico8.dat ok 
-[000946] codo_set_screen 128 128 8 100
-[000946]  window size: 512 512
-[001404]   setting filter to nearest (screen_mode 0  back page width: 128)
->>>>>>> refs/remotes/origin/main
->>>>>>> 16f50e1ffea338ac455c5104fe993c1cf1da3b30
-  renderer opengl:
-   flags: 0x0000000A ( | )
-   texture formats (5): ARGB8888, YV12, IYUV, 0x3231564e, 0x3132564e
-<<<<<<< HEAD
-   max texture size: 16384x16384
-[001163]  desktop size: 1920 1080
-[001163] ok
-[001193] codo_sound_init mix_buffer_size: 1024
-[001193] codo_sound_init
-[001193] SDL_INIT_AUDIO ok
-[001284] SDL_OpenAudio ok
-[001284]  freq:22050
- channels:1
-[001284] Built-in audio drivers: 0 pulseaudio 1 alsa 2 dsp 3 disk 4 dummy
-[001284] Current audio driver: pulseaudio
-[001284] splore_init
-[001284] could not load favourites file: pico8/favourites.txt
-[109122] run_cart current_filename: pico8/carts/untitled_1.p8 running_filename: untitled_1.p8 running_cart_lid: 
-[124958] run_cart current_filename: pico8/carts/untitled_1.p8 running_filename: untitled_1.p8 running_cart_lid: 
-[131148] run_cart current_filename: pico8/carts/untitled_1.p8 running_filename: untitled_1.p8 running_cart_lid: 
-[147422] run_cart current_filename: pico8/carts/untitled_1.p8 running_filename: untitled_1.p8 running_cart_lid: 
-[179535] run_cart current_filename: pico8/carts/untitled_1.p8 running_filename: untitled_1.p8 running_cart_lid: 
-[184630] run_cart current_filename: pico8/carts/untitled_1.p8 running_filename: untitled_1.p8 running_cart_lid: 
-[193473] run_cart current_filename: pico8/carts/untitled_1.p8 running_filename: untitled_1.p8 running_cart_lid: 
-[206996] run_cart current_filename: pico8/carts/untitled_1.p8 running_filename: untitled_1.p8 running_cart_lid: 
-[348596] run_cart current_filename: pico8/carts/untitled_1.p8 running_filename: untitled_1.p8 running_cart_lid: 
-[355736] run_cart current_filename: pico8/carts/untitled_1.p8 running_filename: untitled_1.p8 running_cart_lid: 
-[358828] run_cart current_filename: pico8/carts/untitled_1.p8 running_filename: untitled_1.p8 running_cart_lid: 
-[446620] run_cart current_filename: pico8/carts/untitled_1.p8 running_filename: untitled_1.p8 running_cart_lid: 
-[457508] run_cart current_filename: pico8/carts/untitled_1.p8 running_filename: untitled_1.p8 running_cart_lid: 
-[662321] run_cart current_filename: pico8/carts/untitled_1.p8 running_filename: untitled_1.p8 running_cart_lid: 
-[675068] run_cart current_filename: pico8/carts/untitled_1.p8 running_filename: untitled_1.p8 running_cart_lid: 
-[689237] run_cart current_filename: pico8/carts/untitled_1.p8 running_filename: untitled_1.p8 running_cart_lid: 
-[714364] run_cart current_filename: pico8/carts/untitled_1.p8 running_filename: untitled_1.p8 running_cart_lid: 
-[915573] run_cart current_filename: pico8/carts/untitled_1.p8 running_filename: untitled_1.p8 running_cart_lid: 
-[951389] run_cart current_filename: pico8/carts/untitled_1.p8 running_filename: untitled_1.p8 running_cart_lid: 
-[967265] window closed (14)
-[967265] codo_exit
-[967265]   cmusic_stop
-[967265]   codo_main_exit
-[967266]   codo_config_save
-[967266]   codo_sound_exit
-[967266]   codo_video_exit
-[967266]   codo_joystick_exit
-[967266]   codo_system_exit
-[967266]   codo_items_created: 1288
-[967266] ok
-=======
-   max texture size: 32768x32768
-[001244]  desktop size: 2560 1440
-[001244] ok
-[001246] codo_sound_init mix_buffer_size: 1024
-[001246] codo_sound_init
-[001246] SDL_INIT_AUDIO ok
-[001256] SDL_OpenAudio ok
-[001256]  freq:22050
- channels:1
-<<<<<<< HEAD
-[001256] Built-in audio drivers: 0 pulseaudio 1 alsa 2 dsp 3 disk 4 dummy
-[001256] Current audio driver: pulseaudio
-[001256] splore_init
-[001256] could not load favourites file: pico8/favourites.txt
-[001292] connecting joystick 0
-[001292] Controller 0: Steam Virtual Gamepad
-[001292]  Number of Axes: 6
-[001292]  Number of Buttons: 11
-[001292]  Number of Balls: 0
-[001292]  Mapping: 03000000de280000ff11000001000000,Steam Virtual Gamepad,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux
-[003509]   setting filter to nearest (screen_mode 0  back page width: 128)
+[000530]   Compiled against SDL version: 2.0.8
+[000530]   Linked against SDL version:   2.0.8
+[000530]   Current video driver: x11
+[000530]   codo_reset_timer
+[000530]   codo_gui_init
+[000530]   codo_keys_init
+[000530]   codo_text_init
+[000530]   codo_video_init
+[000530]   codo_mouse_init
+[000530]   codo_joystick_init
+[000531]   Reading controller mappings: pico8/sdl_controllers.txt
+[000531]   searching for joysticks
+[000531]     found 0 joysticks
+[000531]   ok
+[000531] ok
+[000541] codo_load_pod: /opt/pico-8/pico8.dat ok 
+[000542] codo_set_screen 128 128 8 100
+[000542]  window size: 512 512
+[000542] setting fullscreen window size to 2560 1440
+[001247]   setting filter to nearest (screen_mode 1  back page width: 128)
   renderer opengl:
    flags: 0x0000000E ( |  | )
    texture formats (5): ARGB8888, YV12, IYUV, 0x3231564e, 0x3132564e
    max texture size: 32768x32768
-[006835] window closed (14)
-[006835] codo_exit
-[006835]   cmusic_stop
-[006835]   codo_main_exit
-[006836]   codo_config_save
-[006836]   codo_sound_exit
-[006836]   codo_video_exit
-[006850]   codo_joystick_exit
-[006850]   codo_system_exit
-[006851]   codo_items_created: 1288
-[006851] ok
-=======
-[001418] Built-in audio drivers: 0 pulseaudio 1 alsa 2 dsp 3 disk 4 dummy
-[001418] Current audio driver: pulseaudio
-[001418] splore_init
-[001418] could not load favourites file: pico8/favourites.txt
-[001485] connecting joystick 1
-[001485] Controller 1: Steam Virtual Gamepad
-[001485]  Number of Axes: 6
-[001485]  Number of Buttons: 11
-[001485]  Number of Balls: 0
-[001485]  Mapping: 03000000de280000ff11000001000000,Steam Virtual Gamepad,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux
-[073599] run_cart current_filename: pico8/carts/untitled_2.p8 running_filename: untitled_2.p8 running_cart_lid: 
-[076013] run_cart current_filename: pico8/carts/untitled_2.p8 running_filename: untitled_2.p8 running_cart_lid: 
-[079271] run_cart current_filename: pico8/carts/untitled_2.p8 running_filename: untitled_2.p8 running_cart_lid: 
-[085508] run_cart current_filename: pico8/carts/untitled_2.p8 running_filename: untitled_2.p8 running_cart_lid: 
-[104815] run_cart current_filename: pico8/carts/anchor/anchor.p8 running_filename: anchor/anchor.p8 running_cart_lid: 
-[141410] run_cart current_filename: pico8/carts/anchor/anchor.p8 running_filename: anchor/anchor.p8 running_cart_lid: 
-[234430] run_cart current_filename: pico8/carts/breakout.p8 running_filename: breakout.p8 running_cart_lid: 
-[275094] run_cart current_filename: pico8/carts/breakout.p8 running_filename: breakout.p8 running_cart_lid: 
-[277408] window closed (14)
-[277408] codo_exit
-[277408]   cmusic_stop
-[277408]   codo_main_exit
-[277409]   codo_config_save
-[277409]   codo_sound_exit
-[277409]   codo_video_exit
-[277413]   codo_joystick_exit
-[277471]   codo_system_exit
-[277472]   codo_items_created: 1295
-[277472] ok
->>>>>>> refs/remotes/origin/main
->>>>>>> 16f50e1ffea338ac455c5104fe993c1cf1da3b30
+[001247]  desktop size: 2560 1440
+[001248] ok
+[001249] codo_sound_init mix_buffer_size: 1024
+[001249] codo_sound_init
+[001249] SDL_INIT_AUDIO ok
+[001257] SDL_OpenAudio ok
+[001257]  freq:22050
+ channels:1
+[001257] Built-in audio drivers: 0 pulseaudio 1 alsa 2 dsp 3 disk 4 dummy
+[001257] Current audio driver: pulseaudio
+[001257] splore_init
+[001257] could not load favourites file: pico8/favourites.txt
+[006576]   setting filter to nearest (screen_mode 0  back page width: 128)
+  renderer opengl:
+   flags: 0x0000000E ( |  | )
+   texture formats (5): ARGB8888, YV12, IYUV, 0x3231564e, 0x3132564e
+   max texture size: 32768x32768
+[023658] codo_exit
+[023658]   cmusic_stop
+[023658]   codo_main_exit
+[023658]   codo_config_save
+[023658]   codo_sound_exit
+[023658]   codo_video_exit
+[023662]   codo_joystick_exit
+[023662]   codo_system_exit
+[023662]   codo_items_created: 1288
+[023662] ok
