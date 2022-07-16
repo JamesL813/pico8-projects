@@ -28,21 +28,13 @@ foreground_sleep_ms 2 // number of milliseconds to sleep each frame. Try 10 to c
 
 background_sleep_ms 10 // number of milliseconds to sleep each frame when running in the background
 
-<<<<<<< HEAD
-sessions 12 // number of times program has been run
-=======
-<<<<<<< HEAD
-sessions 9 // number of times program has been run
-=======
-sessions 8 // number of times program has been run
->>>>>>> refs/remotes/origin/main
->>>>>>> 16f50e1ffea338ac455c5104fe993c1cf1da3b30
+sessions 15 // number of times program has been run
 
 // (scancode) hold this key down and left-click to simulate right-click
 rmb_key 0 // 0 for none  226 for LALT
 
 // Desktop for saving screenshots etc. Defaults to $HOME/Desktop
-desktop_path $HOME/Pictures/pico8/
+desktop_path 
 
 // 1 to allow controller input even when application is in background
 read_controllers_in_background 0
@@ -97,7 +89,7 @@ screenshot_scale 3
 gif_scale 3
 
 // maximum gif length in seconds (0..120; 0 means no gif recording)
-gif_len 16
+gif_len 8
 
 // when 1, reset the recording when pressing ctrl-9 (useful for creating a non-overlapping sequence)
 gif_reset_mode 0
@@ -143,5 +135,5 @@ periodic_backups 20
 transform_screen 0
 
 // 0 off 1 on: show pixel grid in the gfx editor at zoom:8 and zoom:4
-gfx_grid_lines 0
+gfx_grid_lines 1
 
