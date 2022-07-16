@@ -155,3 +155,9 @@
  ricccccccccccrccccc.cccrc.crcccrcc.cccrrrrrrrrrrrr_rrccccccciccrrrrrccc..cc.....
  ..cc..ccccccccccccccc.ccccccrcccccrrrrrrii........ii........ii
 >>>>>>> a6bd1bccb0104de78e2c317c64fa15a1530e338d
+
+2022-07-16 04:55:36 pico8/carts/untitled_2.p8
+ i.
+2022-07-16 04:55:42 pico8/carts/dice.p8
+ irrr_rrrrrrrcccccrrrrrrrrrrrr_rrrrrrrrrrrr_ccccccrrrrrrrrrrrri....c....c.rrrrrrr
+ 

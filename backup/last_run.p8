@@ -710,7 +710,7 @@ function draw_blocks()
 		pset(b.x,b.y,0)
 		pset(b.x+b.w,b.y+b.h,0)
  	
- 	--[[if b.l<=1 then
+ 	if b.l<=1 then
  		line(b.x+b.w/2,b.y+b.h,
  			b.x+b.w-1,b.y+3,5)
  		line(b.x+b.w-3,b.y+b.h/2,
@@ -720,14 +720,14 @@ function draw_blocks()
  		line(b.x,b.y+b.h/2,
  			b.x+2,b.y+3,5) 
  		
- 	end]]--
+ 	end
  	
  	if b.roll>0 then
  		drawnum(b,flr(b.roll%30/5))
  		b.roll-=1
  		
  		if b.roll==0 then
- 			b.n=rnd(6)+1
+ 			b.n=flr(rnd(6)+1)
  		end
  		
  	else
