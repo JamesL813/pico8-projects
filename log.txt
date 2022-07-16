@@ -5,13 +5,14 @@
 [000000]     01 window_size 512 512 // window width, height
 [000000]     02 screen_size 0 0 // screen width, height (stretched to window) 
 [000000]     03 show_fps 0 // Draw frames per second in the corner
-[000000]     04 windowed 0 // 1 to start up in windowed mode
+[000000]     04 windowed 1 // 1 to start up in windowed mode
 [000000]     05 window_position -1 -1 // x and y position of window (-1, -1 to let the window manager decide)
 [000000]     new window position: -1, -1
 [000000]     06 frameless 0 // 1 to use a window with no frame
 [000000]     07 fullscreen_method 1 // 0 maximized window (linux)  1 borderless desktop-sized window  2 hardware fullscreen (warning: erratic behaviour under some drivers)
 [000000]     08 foreground_sleep_ms 2 // number of milliseconds to sleep each frame. Try 10 to conserve battery power
 [000000]     09 background_sleep_ms 10 // number of milliseconds to sleep each frame when running in the background
+<<<<<<< HEAD
 [000000]     10 <<<<<<< HEAD
 [000000]     11 sessions 12 // number of times program has been run
 [000000]     12 =======
@@ -105,3 +106,159 @@
 [023662]   codo_system_exit
 [023662]   codo_items_created: 1288
 [023662] ok
+=======
+[000000]     10 sessions 14 // number of times program has been run
+[000000]     11 rmb_key 0 // 0 for none  226 for LALT
+[000000]     12 desktop_path 
+[000000]     13 read_controllers_in_background 0
+[000000]     14 sound_volume 256 // 0..256
+[000000]     15 music_volume 256 // 0..256
+[000000]     16 mix_buffer_size 1024
+[000000]     17 version 0.2.4C
+[000000]     18 volume 256
+[000000]     19 root_path pico8/carts/
+[000000]     20 cdata_path pico8/cdata/
+[000000]     21 joystick_index 0
+[000000]     22 button_keys 0 0 0 0 0 0 0 0 0 0 0 0 0 
+[000000]     23 live_notes 0
+[000000]     24 cursor_snap 0
+[000000]     25 gui_theme 0
+[000000]     26 screenshot_scale 3
+[000000]     27 gif_scale 3
+[000000]     28 gif_len 8
+[000000]     29 gif_reset_mode 0
+[000000]     30 host_framerate_control 1
+[000000]     31 splore_filter 0
+[000000]     32 tab_width 1
+[000000]     33 draw_tabs 0
+[000000]     34 record_activity_log 1
+[000000]     35 allow_function_keys 1
+[000000]     36 check_for_cart_updates 1
+[000000]     37 auto_hide_mouse_cursor 5
+[000000]     38 aggressive_backups 0
+[000000]     39 periodic_backups 20
+[000000]     40 transform_screen 0
+[000000]     41 gfx_grid_lines 1
+[000000]   
+[000000]   codo_system_init
+[000930]   Compiled against SDL version: 2.0.8
+[000930]   Linked against SDL version:   2.0.8
+[000930]   Current video driver: x11
+[000930]   codo_reset_timer
+[000930]   codo_gui_init
+[000930]   codo_keys_init
+[000930]   codo_text_init
+[000931]   codo_video_init
+[000931]   codo_mouse_init
+[000931]   codo_joystick_init
+[000937]   Reading controller mappings: pico8/sdl_controllers.txt
+[000937]   searching for joysticks
+[000937]     found 0 joysticks
+[000937]   ok
+[000937] ok
+[000957] codo_load_pod: /opt/pico-8/pico8.dat ok 
+[000977] codo_set_screen 128 128 8 100
+[000977]  window size: 512 512
+[001173]   setting filter to nearest (screen_mode 0  back page width: 128)
+  renderer opengl:
+   flags: 0x0000000A ( | )
+   texture formats (5): ARGB8888, YV12, IYUV, 0x3231564e, 0x3132564e
+   max texture size: 16384x16384
+[001198]  desktop size: 1920 1080
+[001198] ok
+[001218] codo_sound_init mix_buffer_size: 1024
+[001218] codo_sound_init
+[001218] SDL_INIT_AUDIO ok
+[001336] SDL_OpenAudio ok
+[001336]  freq:22050
+ channels:1
+[001336] Built-in audio drivers: 0 pulseaudio 1 alsa 2 dsp 3 disk 4 dummy
+[001336] Current audio driver: pulseaudio
+[001336] splore_init
+[001336] could not load favourites file: pico8/favourites.txt
+[271371] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[558558] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[561485] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[574429] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[588043] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[599331] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[621962] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[629365] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[667678] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[674634] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[690973] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[702411] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[713379] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[733253] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[741744] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[746947] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[792239] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[809413] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[849118] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[863253] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[867126] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[872718] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[878276] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[905995] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[912182] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[989579] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[1018804] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[1825223] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[2006003] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[2262181] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[2302238] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[2329954] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[2339703] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[2522478] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[2528357] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[2563804] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[2581822] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[2597777] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[2658935] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[2725661] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[2975644] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[2992813] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[3000515] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[3021555] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[3044813] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[3100644] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[3161307] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[3173941] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[3241377] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[3288060] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[3379444] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[3449937] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[3533255] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[3541339] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[3612401] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[3623272] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[3671787] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[3699350] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[3736247] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[3835778] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[3854893] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[3986815] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[4065303] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[4089755] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[4154605] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[4185253] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[4197804] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[4209168] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[4229737] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[4297051] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[4306673] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[4440784] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[4460059] run_cart current_filename: pico8/carts/dice.p8 running_filename: dice.p8 running_cart_lid: 
+[4473004] saving gif to: /home/james/Desktop/dice_1.gif
+[4592790] window closed (14)
+[4592790] codo_exit
+[4592790]   cmusic_stop
+[4592790]   codo_main_exit
+[4592791]   codo_config_save
+[4592791]   codo_sound_exit
+[4592791]   codo_video_exit
+[4592792]   codo_joystick_exit
+[4592792]   codo_system_exit
+[4592793]   codo_items_created: 1122
+[4592793] ok
+>>>>>>> a6bd1bccb0104de78e2c317c64fa15a1530e338d
