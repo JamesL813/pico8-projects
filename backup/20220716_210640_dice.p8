@@ -19,9 +19,7 @@ function _init()
  debugrect={
  	x1=-1,y1=-1,
  	x2=-1,y2=-1}
- temp1=-1
- temp2=-2
- 
+ temp=-1
  
 end
 
@@ -77,10 +75,9 @@ function _draw()
 	--								 debugrect.y1,
 	--									debugrect.x2,
 	--									debugrect.y2,13)
-	--print(temp1,2,2,8)
-	--print(temp2,10,10,8)
-	
-
+	if table!=nil then
+		print(table[1])
+	else print(temp) end
 end
 
 --any button pressed?
@@ -160,17 +157,13 @@ function draw_game()
  rect(0,0,127,127,7)
  line(0,8,127,8,7)
  
-
+ for i=0,lives-1 do
+ 	print("♥",2+i*8,2)
+ end
  
 	draw_ball()
 	draw_pad()
 	draw_blocks()
-	
-	rectfill(1,1,
-		128*(timer/max_timer),7,1)
-	for i=0,lives-1 do
- 	print("♥",2+i*8,2,8)
- end
 	
 	if mouse or cur.t>1 then
 	 pset(cur.x0,cur.y,7)
@@ -618,7 +611,6 @@ function init_blocks(level)
 	blocks={}
 	buff={}
 	timer=0
-	max_timer=300
 	
 	for i=0,80 do
 		--if rnd(1)>.1 then
@@ -729,7 +721,7 @@ function draw_blocks()
  		b.roll-=1
  		
  		if b.roll==0 then
- 			
+ 			b.n=flr(rnd(6))+1
  		end
  		
  	else
@@ -745,28 +737,28 @@ function drawnum(b,n)
 	if n%2==1 then
 		rect(b.x+(b.w)/2,
 			b.y+(b.h/2),b.x+(b.w)/2+1,
-			b.y+(b.h/2)+1,n+7)
+			b.y+(b.h/2)+1,0)
 	end
 
 	if n>=2 then
 		rect(b.x+1,b.y+1,
-			b.x+2,b.y+2,n+7)
+			b.x+2,b.y+2,0)
 		rect(b.x+b.w-2,b.y+b.h-2,
-			b.x+b.w-1,b.y+b.h-1,n+7)
+			b.x+b.w-1,b.y+b.h-1,0)
 	end
 	
 	if n>=4 then
 		rect(b.x+b.w-2,b.y+1,
-			b.x+b.w-1,b.y+2,n+7)
+			b.x+b.w-1,b.y+2,0)
 		rect(b.x+1,b.y+b.h-2,
-			b.x+2,b.y+b.h-1,n+7)
+			b.x+2,b.y+b.h-1,0)
 	end
 	
 	if n==6 then
 		rect(b.x+b.w-2,b.y+(b.h/2),
-			b.x+b.w-1,b.y+(b.h/2)+1,n+7)
+			b.x+b.w-1,b.y+(b.h/2)+1,0)
 		rect(b.x+1,b.y+(b.h/2),
-			b.x+2,b.y+(b.h/2)+1,n+7)
+			b.x+2,b.y+(b.h/2)+1,0)
 	end
 	
 end
@@ -779,39 +771,33 @@ function hit(b)
 	explo(ball.x,ball.y,
 		ball.v.y*2)
 	
-	if b.roll!=0 then
-		b.roll=60 end
-	b.n=flr(rnd(6))+1
-	
 	add(buff,b)
 	
 end
 
 function check_buff()
 
-	if timer<max_timer then
-		return else timer=0 end
+	if timer<300 then return end
 	
-	tab={0,0,0,0,0,0}
-
-	
+	table={0,0,0,0,0,0}
 	
 	for b in all(buff) do
-		
-		tab[b.n]+=1
-		
+		temp=b.n
+		table[b.n]+=1
 	end
 	
 	for b in all(buff) do
-		if tab[b.n]>=2 then
+		if table[b.n]>=2 then
 			b.l=0
 			sfx(3)
-			explo(b.x+b.w/2,b.y+b.h/2,
-				6)
-			del(buff,b)
+			explo(ball.x,ball.y,
+				ball.v.y*2)
+			
 		end
 	end
-	tab=nil
+	
+	
+
 end
 __gfx__
 00000000007777777777000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000

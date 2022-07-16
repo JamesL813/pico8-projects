@@ -77,8 +77,8 @@ function _draw()
 	--								 debugrect.y1,
 	--									debugrect.x2,
 	--									debugrect.y2,13)
-	--print(temp1,2,2,8)
-	--print(temp2,10,10,8)
+	print(temp1,2,2,8)
+	print(temp2,10,10,8)
 	
 
 end
@@ -160,17 +160,15 @@ function draw_game()
  rect(0,0,127,127,7)
  line(0,8,127,8,7)
  
-
+ for i=0,lives-1 do
+ 	print("♥",2+i*8,2)
+ end
  
 	draw_ball()
 	draw_pad()
 	draw_blocks()
 	
-	rectfill(1,1,
-		128*(timer/max_timer),7,1)
-	for i=0,lives-1 do
- 	print("♥",2+i*8,2,8)
- end
+	rectfill(1,1,128*(timer/max_timer),10,3)
 	
 	if mouse or cur.t>1 then
 	 pset(cur.x0,cur.y,7)
@@ -745,28 +743,28 @@ function drawnum(b,n)
 	if n%2==1 then
 		rect(b.x+(b.w)/2,
 			b.y+(b.h/2),b.x+(b.w)/2+1,
-			b.y+(b.h/2)+1,n+7)
+			b.y+(b.h/2)+1,0)
 	end
 
 	if n>=2 then
 		rect(b.x+1,b.y+1,
-			b.x+2,b.y+2,n+7)
+			b.x+2,b.y+2,0)
 		rect(b.x+b.w-2,b.y+b.h-2,
-			b.x+b.w-1,b.y+b.h-1,n+7)
+			b.x+b.w-1,b.y+b.h-1,0)
 	end
 	
 	if n>=4 then
 		rect(b.x+b.w-2,b.y+1,
-			b.x+b.w-1,b.y+2,n+7)
+			b.x+b.w-1,b.y+2,0)
 		rect(b.x+1,b.y+b.h-2,
-			b.x+2,b.y+b.h-1,n+7)
+			b.x+2,b.y+b.h-1,0)
 	end
 	
 	if n==6 then
 		rect(b.x+b.w-2,b.y+(b.h/2),
-			b.x+b.w-1,b.y+(b.h/2)+1,n+7)
+			b.x+b.w-1,b.y+(b.h/2)+1,0)
 		rect(b.x+1,b.y+(b.h/2),
-			b.x+2,b.y+(b.h/2)+1,n+7)
+			b.x+2,b.y+(b.h/2)+1,0)
 	end
 	
 end
@@ -797,21 +795,22 @@ function check_buff()
 	
 	
 	for b in all(buff) do
-		
-		tab[b.n]+=1
-		
+		temp1=b.n
+		temp2=tab[b.n]
 	end
 	
 	for b in all(buff) do
-		if tab[b.n]>=2 then
+		--if table[b.n]>=2 then
 			b.l=0
 			sfx(3)
 			explo(b.x+b.w/2,b.y+b.h/2,
 				6)
-			del(buff,b)
-		end
+			
+		--end
 	end
-	tab=nil
+	
+	
+
 end
 __gfx__
 00000000007777777777000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000

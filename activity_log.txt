@@ -161,3 +161,21 @@
 2022-07-16 04:55:42 pico8/carts/dice.p8
  irrr_rrrrrrrcccccrrrrrrrrrrrr_rrrrrrrrrrrr_ccccccrrrrrrrrrrrri....c....c.rrrrrrr
  
+2022-07-16 20:46:37 pico8/carts/untitled_2.p8
+ iii
+2022-07-16 20:46:46 pico8/carts/dice.p8
+ r_rrcccccccccccccccr_rrr_ccc....ccc.........ccccc...ccccccccccccccccccccccc..ccc
+ ccccccccccccrrrrrrrc..cccc...cccccccc...cccc.ccccccccccccc..ccccccccccc.........
+ ccc...cccccccccc.cccccc.cc..ccccccccccc...cccccccccr_rcccccccccccccccrcccrrrrccc
+ cccc..ccccccrrrrrrccccccccccccrrr_rccciccccccicccrrrrcccccccrrrrccccccccrrrri...
+ .....ii.cc.ccccccccccccccccr__....cccccccccccccccccrr.ccccccccccccrrccgcrr....i.
+ ........ic.cccc.ccccccccccccccrr...cccccccccrri.c.ccrr..cccccccccccccccccccccccc
+ cc...cccccccrri....cccccccccc.cccccrrrccccccrrrccccccccccccccccccc..ccrrrr_crrrc
+ r_ric.ccc.....ccccccccrriccc.cccccccrri.i...i.........iccccc.ccc.cc.cccccccr..cc
+ ccccrrrrr_r__rrrrccccccc.ccccccgccccc.c.c......cccccccccrrrrccccccc....ccccccccc
+ 
+2022-07-16 21:26:38 pico8/carts/untitled_2.p8
+ iiiiiiccccccccccccccccccccccccccccc.cccc.cccccccccccc..ccccc......ccrrrccccccrrrrrcccc
+ cccrr..ccccccrri.ccrrrrrcccccc.ccccccccccccgggcccccccccr_cccccccccccrrrrcccccccc
+ .........ccccccrr_ccccccrrrrrrr_cccc....crrrrrccccccgccicricccccccccccccrrrrrrrr
+ rr_rii......
