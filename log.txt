@@ -333,3 +333,52 @@
 [11662633]  ok_
 [11662633] 2. writing pico8/carts/dicebreaker_html/dicebreaker.js
 [11666715] launch: [xdg-open "pico8/carts/"&] result: 0
+[13613396] launch: [xdg-open "pico8/carts/"&] result: 0
+[13683214] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[13819211] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[13934460] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[13962061] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[13974788] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[13990712] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[14059316] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[14080603] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[14179496] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[14200247] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[14223882] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[14242854] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[14247413] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[14257183] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[14293081] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[14299955] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[14439777] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[14451443] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[14514781] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[14523280] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[14568631] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[14760728] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[14793671] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[15517615] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[15525312] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[15529228] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[15543164] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[15551049] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[15554781] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[15559413] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[15563533] run_cart current_filename: pico8/carts/dice/dice.p8 running_filename: dice/dice.p8 running_cart_lid: 
+[15578797] saving gif to: /home/james/Desktop/dice_4.gif
+[15659777] codo_save_pod: pico8/carts/dice/v0-1/dicebreaker.bin/windows/data.pod 0 
+[15659784] codo_save_pod: pico8/carts/dice/v0-1/dicebreaker.bin/linux/data.pod 0 
+[15659803] codo_save_png result: 0  file: pico8/carts/dice/v0-1/dicebreaker.bin/linux/dicebreaker.png
+[15659806] codo_save_pod: pico8/carts/dice/v0-1/dicebreaker.bin/dicebreaker.app/Contents/MacOS/data.pod 0 
+[15659834] codo_save_pod: pico8/carts/dice/v0-1/dicebreaker.bin/raspi/data.pod 0 
+[15659857] codo_save_png result: 0  file: pico8/carts/dice/v0-1/dicebreaker.bin/raspi/dicebreaker.png
+[15671422] codo_save_png result: 0  file: pico8/carts/dice/v0-1/dicebreaker.p8.png
+[15683737] exporting html: -f dicebreaker.html 1 1
+[15683742] 1. export html
+[15683742] 1.a opening output: pico8/carts/dice/v0-1/dicebreaker_html/index.html
+[15683742] 1.b replacements
+[15683743]  ok_
+[15683761] codo_save_png result: 0  file: pico8/_label.png
+[15683761]  ok_
+[15683761] 2. writing pico8/carts/dice/v0-1/dicebreaker_html/dicebreaker.js
+[15694169] run_cart current_filename: pico8/carts/dice/v0-1/dice.p8 running_filename: dice/v0-1/dice.p8 running_cart_lid: 

@@ -226,4 +226,16 @@
  cccccccccms.sscc.........cccccccc....crrrr_rrr_icssssssssrrsssssssssssssss....sr
  r_s..ccc..ccc.ccccccrrc.crrrrccrrr_r_rrrrrc.......c.........crrrrrr_rrrriiiiiiii
  .iiii.........i.........ccc..c....cc.........cccc.........c.........c.........c.
+ ........c.........ccciiiiii.ii.........iii
+2022-07-17 17:14:26 pico8/carts/dice/dice.p8
+ rrrrrrr_rrrrrr_rrrrrrrrrrrr_rrrrrrrrc........cric.cc...ggcccc.cccccccccccccccccc
+ ccccrrc..ccccrrccci.cccr_c.cccccc.ccccggccccccri..cccrrrr__rrr_rrrrrrr_i....cccc
+ cccccci.cccccric.ccccri..ccirrccr_rcccccccccrcrr_r__rrrr_rrrr____rri..cc.cc.cccc
+ cccccccccc..ciccrc.cccccc.cccccccccc.cc.rr_rrrrrrrrrrrrrrr_____rrrrrrrrrrrrrrrrr
+ icc.ccccccccccccccccccccccccccccccccccccr..c.ccccccrr_rric.......ggggggggggggggg
+ gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+ ggggggggggg.ggggggggggggggggggggggggggggggggg.gggggggggggggggggggggggggggggggggg
+ ggggggggggggggggg.ggggggggggggggggggggggggggcc..ccccicrcrcccrccciccr___rrr___iii
+ iiiiiiiiiiii
+2022-07-17 17:47:03 pico8/carts/dice/v0-1/dice.p8
  
