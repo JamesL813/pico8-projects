@@ -179,3 +179,51 @@
  cccrr..ccccccrri.ccrrrrrcccccc.ccccccccccccgggcccccccccr_cccccccccccrrrrcccccccc
  .........ccccccrr_ccccccrrrrrrr_cccc....crrrrrccccccgccicricccccccccccccrrrrrrrr
  rr_rii......
+2022-07-16 22:05:24 pico8/carts/untitled_2.p8
+ ii
+2022-07-16 22:05:30 pico8/carts/dice.p8
+ rrrrrrrrrrrrrrrrrricc..ccccccc..cccccrrrrrrrrrrrrc...ccc..cccccccccccccgcccccccc
+ rrrrccccrrrrrrri..c.cccccccccccrccrrricrr_rc..cgccccc...c.cccccgcccggcccg..ggggg
+ .ccggggccccccg......gccggccggcccgggccggccccc.ggcggggcggcgcccggggggcgggggcccgcccc
+ cgcc..c.ccccccccccccccgccccccccrcc.crrrr_rrrcccrrrrrrrrrrrrc..cc.cccccrrrrrrrrrr
+ rrrrccc........cccc...cc.........cccc.rrrrrric..cc.ccrcr_rr_cccccc..ccrrrr_rrrc.
+ .......cccccc.........ccccc....c..c..ccrrrcccccrrrrcccrrrrrr_r_r__c.cc.ccccccccc
+ ccccccccccc..ccccccccric.cc.ciccrrccci.ccccciccr__rrrrrr_rrrrc....c...ccccccgrcr
+ rrricccccrr_rrrrrrrrc..ccccrrrrr_i.c.c...ccccccccc.c.c.ccccccccrrrrrrrcccrrrrrii
+ ....iicccc.cccccccgcc..ccic...ccccccc.cccc...cccccccc..cccccccccccccciccci.c...c
+ ccccc.cccic.ccrrrcccccccc.cccrrrc.ccc.....ccccccc....ccccccrrrrrc...c.......c...
+ ......cc...cc.cccc.cccccccccrrrrrr_ic.cc.cc.....ccrrrcciicccrccccccccrrcrrrrrrrr
+ c.ciiiicc....ccccccccc.c..c........ccccccc.cc..ccc.rcccccccrrrr_cccrc..c.ccccicc
+ cccrccrccccccccccccccc.ccc.rccccrrc...c.crccic....cccccccrric....ccccccircccrcc.
+ c..c.gcccc...gc...ccccccrrc..c...ccccccccccccccccccrc......ccrc.criiircccc...ccc
+ ccrrrrrc.....cc..cccccc.cccccc..ccccccrr_rc.....ccccr_c..c.c.ccccr_rrrrccccc..cc
+ ccrrrrcccccr_r_r_rcccc.cc.......cc...crrrrrrrc..cc.......rcrrrrriccccccccccccccc
+ cccr_rccccrrrrcccccrrrrrrrrrc...rrc..cc.rccrrrrrrrrrrrrrrrrrrricc......c...c....
+ .c.cc.cc....c.........rrr_r_rrrrr_________rr_rrrrrrrrrrr_rrrrrrrrrrrrrrrrrrrrrrr
+ rc...ccccccc.ccccc.ccc..cccccccccccccccrr...cccccrrrrr_rr_rrr_rrrrrrr_rr_rric...
+ ...c.....cr_rrrrrr_riccccccccccccccri.c..cccccccccccccccccric..cri.cccccccccccic
+ cririccccccccicrc.cccccccccccccccccc.ciirricc.cicccrrrrrrrrrrriccccrcccccr_icrrc
+ cccccccccccrccccgcccccrrcccccc...crccccicricggcgggggcccccccccrrrrc.ccrrrrrrccccc
+ r_rrr_rrccccccccccccccccccccc.r_cccc..cc..ccccccccccccrc...cccrccrr__cc..ccc.ccc
+ ccrr_rrr_rrrrrrr_rc....ccccccccrrrrrrccccrrr_rrr_rcggggggggggcccccccrccc.ccrrr_r
+ rrrrrrrrrcmggggggcccccccccrr_ccccc...rrr_i....ccrrcccrgcrccrrccccccc.cc.rccccccc
+ ccccccccccccccccccccrcccccrrrc....ccrrr_rc...ccccccccccccccccccci.ricccccccccccc
+ rrrrrrrrccc.cccc.........c.......ccc.c...c.........c.c.cc.........cccrrrrc....c.
+ c.rr_rrrrrrcccccrrrrrrricc.c.c.........c.cccccrrrrrrrrrrrrrrrrrrrcccrrrrrri.....
+ ....rrr_rrrr_rrrr_ic.c..c.........crr_rriccc.c...rr_rr_cc.........c.........cccr
+ _r_rrrr_rrrri.cc.........c..c........c..cccccccc..crrr_rric.......ccccccc..c....
+ .....cccc.........ccrrrrrric.ccc...cccc....cc.c.........rrrrrr__rrriic.cc..c.c.c
+ ....c.........cc.c.........cccccrr_rr_r_________ccccccmcccccccccc..cccrc....crrc
+ c.........rrcc.....c..cccccccccri..ccccc.........ccccrccccccrccrrrrr___iicrccc.c
+ cccccccccccici...crcrccrcccrrccccccrcccggc.cccccrcrcicirc.rccr_r_____rr_____rrrr
+ __rrrrrr______rrrrricc.ccccccccricccciccccrccccicicc.rrrrrrrrrrrr_rrrrrrrri...cr
+ ricccccccccrrcci..crrrrr___rrr__r_c.........cccccccccccr_r__rc..ccccccccr_r___rr
+ r_rrrricccccccccrrccccc..cr_rrrrrrc....cc..ccccrrrrrrrrrrr_rrcccccc.ccci..c....r
+ rrr_rr__r_rrr_________rrrrrr_rrrrrrrrrric.........ccc.........rrrrrr_rr__rrrrrrc
+ ccc..c.ccccccccccccccc.ccccccrrrccc.ccccrrrr_i....cccccrrrrrrrccrrrrrrriccc.....
+ ....cccccccccccc.rcrr_rrrrrrcrcctssssssssssssssssssss.ssssssssss.........ssccc..
+ ..cccccc.........cccc.cc..cc.cccccccccc.........c..cccccc.c.ccccccc.c..cccccc...
+ cccccccccms.sscc.........cccccccc....crrrr_rrr_icssssssssrrsssssssssssssss....sr
+ r_s..ccc..ccc.ccccccrrc.crrrrccrrr_r_rrrrrc.......c.........crrrrrr_rrrriiiiiiii
+ .iiii.........i.........ccc..c....cc.........cccc.........c.........c.........c.
+ 
